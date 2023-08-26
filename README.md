@@ -26,7 +26,7 @@ To compile the extension you need to follow these steps:
 cd godot-cpp
 ```
 
-3. Compile `godot-cpp`` and generate the bindings (only needed once when starting development or when there is an update of the submodule)
+3. Compile `godot-cpp` and generate the bindings (only needed once when starting development or when there is an update of the submodule)
 ```bash
 scons # this will use the default values such as target=template_debug
 ```
