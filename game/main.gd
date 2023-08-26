@@ -1,10 +1,11 @@
 extends Node
 
 func _ready() -> void:
-	var s = Summator.new()
-	s.add(10)
-	s.add(20)
-	s.add(30)
-	print(s.get_total())
-	s.reset()
-
+	print("Known subclasses of AudioStream:")
+	var arr = ClassDB.get_inheriters_from_class("AudioStream")
+	arr.sort()
+	for clz in arr:
+		print(clz)
+	
+	print("Calling play()")
+	$AudioStreamPlayerSimple.play()

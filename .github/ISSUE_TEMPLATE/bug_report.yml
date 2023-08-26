@@ -1,12 +1,12 @@
 name: Bug report
-description: Report a bug in GDExtension Summator
+description: Report a bug in GDExtension Custom Audiostream
 body:
 
 - type: markdown
   attributes:
     value: |
       - Write a descriptive issue title above.
-      - Search [open](https://github.com/paddy-exe/GDExtensionSummator/issues) and [closed](https://github.com/paddy-exe/GDExtensionSummator/issues?q=is%3Aissue+is%3Aclosed) issues to ensure it has not already been reported.
+      - Search [open](https://github.com/oparisy/gdextension-custom-audiostream/issues) and [closed](https://github.com/oparisy/gdextension-custom-audiostream/issues?q=is%3Aissue+is%3Aclosed) issues to ensure it has not already been reported.
 
 - type: input
   attributes:

@@ -8,7 +8,7 @@ The template for the GDExtension mechanism is paddy-exe's excellent [GDExtension
 Since this project includes `godot-cpp` as a submodule, you'll have to clone it with `git clone --submodule`.
 
 ## Using the Extension
-After building the extension successfully (see below), open the Godot project in the `game` subfolder, and run it. You'll hear a generated sine wave being played.
+After building the extension successfully (see below), open `game/project.godot` in Godot Project Manager, and run it. You'll hear a generated sine wave being played.
 
 ## Building the Extension
 
@@ -21,22 +21,12 @@ To compile the extension you need to follow these steps:
 
 1. Make sure you cloned the extension recursively as described above
 
-2. Go inside the godot-cpp folder
+2. Go to the top level of the project
 ```bash
-cd godot-cpp
+cd gdextension-custom-audiostream
 ```
 
-3. Compile `godot-cpp` and generate the bindings (only needed once when starting development or when there is an update of the submodule)
-```bash
-scons # this will use the default values such as target=template_debug
-```
-
-4. Go back to the top level of the directory
-```bash
-cd ..
-```
-
-5. Compile the extension
+3. Compile the extension
 ```bash
 scons # this will use the default values such as target=template_debug
 ```

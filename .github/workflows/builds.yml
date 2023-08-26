@@ -3,7 +3,7 @@ name: Builds
 on: [push, pull_request]
 
 env:
-  LIBNAME: summator
+  LIBNAME: customaudiostream
 
 concurrency: 
   group: ci-${{github.actor}}-${{github.head_ref || github.run_number}}-${{github.ref}}-macos
