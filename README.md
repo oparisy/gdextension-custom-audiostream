@@ -1,6 +1,6 @@
 # GDExtension Custom AudioStream
 
-This repository provides an example of defining a custom `AudioStream` for Godot 4.1 with its GDExtension system.
+This repository provides an example of defining a custom `AudioStream` for Godot 4.2 with its GDExtension system.
 It is based on the [Custom AudioStreams](https://docs.godotengine.org/en/stable/contributing/development/core_and_modules/custom_audiostreams.html) tutorial for Godot modules.
 The template for the GDExtension mechanism is paddy-exe's excellent [GDExtensionSummator](https://github.com/paddy-exe/GDExtensionSummator). Have a look at that project for more details about GDExtension, debugger usage...
 
