@@ -5,7 +5,7 @@ It is based on the [Custom AudioStreams](https://docs.godotengine.org/en/stable/
 The template for the GDExtension mechanism is paddy-exe's excellent [GDExtensionSummator](https://github.com/paddy-exe/GDExtensionSummator). Have a look at that project for more details about GDExtension, debugger usage...
 
 ## Cloning the Extension
-Since this project includes `godot-cpp` as a submodule, you'll have to clone it with `git clone --submodule`.
+Since this project includes `godot-cpp` as a submodule, you'll have to clone it with `git clone --recurse-submodules`.
 
 ## Using the Extension
 After building the extension successfully (see below), open `game/project.godot` in Godot Project Manager, and run it. You'll hear a generated sine wave being played.
